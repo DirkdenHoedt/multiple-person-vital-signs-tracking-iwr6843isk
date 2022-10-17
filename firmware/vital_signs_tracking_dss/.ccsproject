@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<ccsVersion value="11.1.0"/>
+	<deviceVariant value="TMS320C67XX.IWR6843"/>
+	<deviceFamily value="C6000"/>
+	<deviceEndianness value="little"/>
+	<codegenToolVersion value="8.3.3"/>
+	<isElfFormat value="true"/>
+	<connection value="common/targetdb/connections/TIXDS110_Connection.xml"/>
+	<linkerCommandFile value="dss_mmw_linker.cmd"/>
+	<rts value="libc.a"/>
+	<createSlaveProjects value=""/>
+	<templateProperties value="id=vital_signs_tracking_dss.projectspec.vital_signs_tracking_dss,type=rtsc,products=com.ti.rtsc.SYSBIOS:6.73.01.01;com.ti.MMWAVE_SDK:3.4.0.03;,xdcToolsVersion=3.50.08.24_core,target=ti.targets.elf.C674,platform=ti.platforms.c6x:IWR68XX:false:600,endianness=little,output_format=elf,buildProfile=debug"/>
+	<origin value="/home/dirk/ti/mmwave_automotive_toolbox_3_6_0/labs/incabinsensing/occupancy_plus_vital_signs/src/vital_signs_tracking_dss.projectspec"/>
+	<filesToOpen value=""/>
+</projectOptions>

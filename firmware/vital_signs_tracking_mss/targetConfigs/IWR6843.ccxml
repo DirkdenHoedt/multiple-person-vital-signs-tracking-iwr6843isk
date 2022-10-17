@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    <configuration XML_version="1.2" id="configuration_0">
+        <instance XML_version="1.2" desc="Texas Instruments XDS110 USB Debug Probe" href="connections/TIXDS110_Connection.xml" id="Texas Instruments XDS110 USB Debug Probe" xml="TIXDS110_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Texas Instruments XDS110 USB Debug Probe">
+            <instance XML_version="1.2" href="drivers/tixds510debugssm.xml" id="drivers" xml="tixds510debugssm.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510cs_dap.xml" id="drivers" xml="tixds510cs_dap.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510cortexR.xml" id="drivers" xml="tixds510cortexR.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510cs_child.xml" id="drivers" xml="tixds510cs_child.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510etbcs.xml" id="drivers" xml="tixds510etbcs.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510icepick_m.xml" id="drivers" xml="tixds510icepick_m.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510c674x.xml" id="drivers" xml="tixds510c674x.xml" xmlpath="drivers"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="IWR6843" href="devices/iwr6843.xml" id="IWR6843" xml="iwr6843.xml" xmlpath="devices"/>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>
